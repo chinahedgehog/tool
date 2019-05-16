@@ -72,3 +72,7 @@ int main( int argv, char *args[]) {
 	printf("over!\n");
 	return 1;
 }
+
+
+//gcc ./shred.c -o /usr/local/bin/shred
+//shred 7 ./1.txt ./2.txt  或是find . | xargs shred 7 批量清除当前目录所有信息
